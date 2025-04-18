@@ -1,12 +1,13 @@
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * Class that represents the display of 4 digits. Its only used to *
+ * represent numbers.                                              *
+ * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
 #include "./Timer.hpp"
 #include "./Number10.hpp"
 
 #include <avr/io.h>
 #include <util/delay.h>
-
-/* * * * * * * * * * * * * * * * * * * * * * * *
- * functions to convert from number to digits. *
- * * * * * * * * * * * * * * * * * * * * * * * */
 
 class Display4 {
   private:
